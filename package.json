@@ -1,0 +1,24 @@
+{
+  "name": "lord-of-the-ring-sdk",
+  "version": "1.2.0",
+  "description": "sdk for lord of the rings api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint:init": "eslint --init"
+  },
+  "keywords": [
+    "sdk"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}

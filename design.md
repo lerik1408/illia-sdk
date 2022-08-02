@@ -1,0 +1,3 @@
+# Architecture
+
+The main file is appService.js. This file has all the logic witch related to API. This file exports hhtpInstance.js, which contains logic related to http connection. In this case, we can change lib for http connection without problem. The next file is errors.js. We have two types of error Api and Sdk error. It is important for separating problems. The last file is entitiesSchems, it contains the pure schema. It is important for getting keys, because users must know which keys they can provide for searching and filtering. Also I provided index.d.ts file for types.
